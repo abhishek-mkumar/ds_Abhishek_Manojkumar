@@ -4,7 +4,7 @@ Google Colab link : https://colab.research.google.com/drive/1CqGiCuefdIfDs3fIh7Y
 
 # Trader Performance vs Market Sentiment Analysis
 
-This repository explores the relationship between trader performance and Bitcoin market sentiment using historical trading data from Hyperliquid and the Fear & Greed Index. The goal is to uncover patterns in trading behavior and profitability under different market conditions.
+This repository explores the relationship between trader performance and Cryptocurrency market sentiment using historical trading data from Hyperliquid and the Fear & Greed Index. The goal is to uncover patterns in trading behavior and profitability under different market conditions.
 
 ## Datasets
 
@@ -19,7 +19,7 @@ This repository explores the relationship between trader performance and Bitcoin
      - `Fee` – Transaction fee
      - `Timestamp IST` – Trade timestamp
 
-2. **Bitcoin Market Sentiment**
+2. **Cryptocurrency Market Sentiment**
    - Source: Fear & Greed Index
    - Key columns:
      - `date` – Daily timestamp
@@ -31,7 +31,7 @@ This repository explores the relationship between trader performance and Bitcoin
 1. **Data Cleaning & Preprocessing**
    - Converted timestamps to datetime objects.
    - Extracted date from trader timestamps to align with daily sentiment.
-   - Merged trader data with Fear & Greed Index on the date column (left join).
+   - Merged trader data with Fear & Greed Index on the date column.
 
 2. **Exploratory Data Analysis**
    - Trader dataset:
